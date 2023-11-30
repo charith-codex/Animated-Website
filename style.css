@@ -131,3 +131,37 @@ h1{
     animation-delay: 7s;
     width: 35px;
 }
+
+@media screen and (max-width: 600px) {
+    h1{
+        font-size: 36px;
+        line-height: 50px;
+    }
+    .side-bar{
+        width: 100%;
+        height: 50px;
+        top: auto;
+        bottom: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 10px;
+        box-sizing: border-box;
+    }
+    .social-links{
+        width: auto;
+        position: unset;
+        transform: none;
+    }
+    .useful-links{
+        width: auto;
+        position: unset;
+    }
+    .menu{
+        width: 15px;
+        margin: 0;
+    }
+    .hero{
+        background-image: url(images/mobile.png);
+    }
+}
